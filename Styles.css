@@ -1,0 +1,112 @@
+html{
+  overflow: auto;
+  scroll-behavior: smooth;
+}
+
+/* FONTS */
+@font-face {
+    font-family: Geist;
+    src: url("Assets/Fonts/Geist/webfonts/Geist-Regular.woff2"); 
+}
+@font-face {
+    font-family: GeistMono;
+    src: url("Assets/Fonts/GeistMono/webfonts/GeistMono-Thin.woff2"); 
+}
+@font-face {
+    font-family: GeistPixel;
+    src: url("Assets/Fonts/GeistPixel/webfonts/GeistPixel-Circle.woff2"); 
+}
+@font-face {
+    font-family: InstrumentSerif;
+    src: url("Assets/Fonts/InstrumentSerif-Regular.ttf"); 
+}
+@font-face {
+    font-family: InstrumentSerif_it;
+    src: url("Assets/Fonts/InstrumentSerif-Italic.ttf"); 
+}
+
+body{
+  background-color: #BFBFBF;
+  padding: 1.9%;
+  padding-bottom: 3%;
+  height: 100%; /*set to 15vh if it's only 1 page*/
+}
+
+
+
+.Header H1{
+  margin: 5vw;
+  margin-top: 11vw;
+  margin-bottom: 0px;
+  font-family: GeistMono;
+}
+
+
+.TopForTitle{
+  background-color: #EAEAEA;
+  position: relative;
+  border-radius: 3.9vw;
+  margin: 5vw;
+  margin-top: 5vw;
+  margin-bottom: 3vw;
+  padding: 10vw;
+  box-shadow: inset 7px 9px 27px 0 #ffffff,
+              inset -7px -7px 15px 5px #999999,
+              11px 9px 11px -1px #717171
+              ;
+}
+
+.Title Ti{
+  font-family: InstrumentSerif_it;
+  font-weight: Regular;
+  font-size: 11vw;
+  letter-spacing: 0px;
+  margin-left: -3vw;
+  margin-bottom: 1vw;
+}
+
+.Title STi{
+  font-family: Geist;
+  font-size: 2.7vw;
+  margin-left: -3vw;
+  margin-top: 1.5vw;
+}
+
+.C2{
+  margin-left: 5vw;
+  margin-right: 0vw;
+}
+
+.DYMM{
+  background-color: #EAEAEA;
+  position: relative;
+  border-radius: 3.9vw;
+  margin: 5vw;
+  margin-left: 0vw;
+  margin-right: 0vw;
+  padding: 3vw;
+  margin-top: 0.1vw;
+  margin-right: 33vw;
+  box-shadow: inset 7px 9px 27px 0 #ffffff,
+              inset -7px -7px 9px 3px #999999,
+              11px 9px 11px -1px #717171
+              ;
+}
+
+.DYMM msg{
+  font-family: InstrumentSerif;
+  font-weight: Regular;
+  font-size: 5vw;
+  letter-spacing: 0px;
+  margin-left: 3vw;
+  margin-bottom: 1vw;
+}
+
+.DYMM btmmsg{
+  font-family: InstrumentSerif_it;
+  font-weight: Regular;
+  font-size: 2.5vw;
+  letter-spacing: 0px;
+  margin-left: 3vw;
+  margin-bottom: 1vw;
+}
